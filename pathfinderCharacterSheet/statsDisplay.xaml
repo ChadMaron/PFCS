@@ -1,0 +1,137 @@
+﻿<Page
+    x:Class="pathfinderCharacterSheet.statsDisplay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:pathfinderCharacterSheet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="appBarAboutBtn" Label="About" Click="appBarAboutBtn_Click"/>
+                <AppBarButton x:Name="appBarInfoBtn" Label="Character Information" Click="appBarInfoBtn_Click"/>
+                <AppBarButton x:Name="appBarStatsBtn" Label="Character Stats" Click="appBarStatsBtn_Click"/>
+            </CommandBar.SecondaryCommands>
+
+
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,107,0.333">
+            <TextBlock x:Name="myDebug" Text="Character Stats" Margin="0,-6.5,29.167,20.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" FontSize="40"/>
+        </StackPanel>
+        <!--TODO: Content should be placed within the following grid-->
+        <ScrollViewer HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto">
+            <Grid  x:Name="ContentRoot" Margin="19,9.5,19,0">
+                <!-- Stat Title-->
+                <StackPanel VerticalAlignment="Top" Height="288" Margin="0,47,300,0">
+                    <TextBlock HorizontalAlignment="Left" Margin="10,3,0,0" TextWrapping="Wrap" Text="STR" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,23,0,0" TextWrapping="Wrap" Text="DEX" VerticalAlignment="Top" FontSize="20"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,25,0,0" TextWrapping="Wrap" Text="CON" VerticalAlignment="Top" FontSize="20"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,26,0,0" TextWrapping="Wrap" Text="INT" VerticalAlignment="Top" FontSize="20"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,26,0,0" TextWrapping="Wrap" Text="WIS" VerticalAlignment="Top" FontSize="20"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,26,0,0" TextWrapping="Wrap" Text="CHA" VerticalAlignment="Top" FontSize="20"/>
+                </StackPanel>
+                <!-- Ability Score-->
+                <StackPanel Margin="58,0,257,186">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="Ability Score" VerticalAlignment="Top" Height="38" Width="40" RenderTransformOrigin="-3.931,-2.696" FontSize="14" TextAlignment="Center"/>
+                    <TextBlock x:Name="StatsStr" HorizontalAlignment="Left" Margin="0,11,0,0" TextWrapping="Wrap" Text="14" VerticalAlignment="Top" FontSize="20" Width="40" RenderTransformOrigin="-0.971,0.869" TextAlignment="Center"/>
+                    <TextBlock x:Name="StatsDex" HorizontalAlignment="Left" Margin="0,24,0,0" TextWrapping="Wrap" Text="16" VerticalAlignment="Top" FontSize="20" Width="40" RenderTransformOrigin="-0.971,0.869" TextAlignment="Center"/>
+                    <TextBlock x:Name="StatsCon" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="12" VerticalAlignment="Top" FontSize="20" Width="40" RenderTransformOrigin="-0.971,0.869" TextAlignment="Center"/>
+                    <TextBlock x:Name="StatsInt" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" FontSize="20" Width="40" RenderTransformOrigin="-0.971,0.869" TextAlignment="Center"/>
+                    <TextBlock x:Name="StatsWis" HorizontalAlignment="Left" Margin="0,26,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" FontSize="20" Width="40" RenderTransformOrigin="-0.971,0.869" TextAlignment="Center"/>
+                    <TextBlock x:Name="StatsCha" HorizontalAlignment="Left" Margin="0,26,0,0" TextWrapping="Wrap" Text="11" VerticalAlignment="Top" FontSize="20" Width="40" RenderTransformOrigin="-0.971,0.869" TextAlignment="Center"/>
+                </StackPanel>
+                <!-- Ability Mod.-->
+                <StackPanel Margin="118,0,198,186">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="Ability Mod." VerticalAlignment="Top" Height="38" Width="40" RenderTransformOrigin="-3.931,-2.696" FontSize="14" TextAlignment="Center"/>
+                    <TextBlock x:Name="ModStr" HorizontalAlignment="Left" Margin="0,11,0,0" TextWrapping="Wrap" Text="+0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="ModDex" HorizontalAlignment="Left" Margin="0,24,0,0" TextWrapping="Wrap" Text="+3" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="ModCon" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="+1" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="ModInt" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="+3" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="ModWis" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="ModCha" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                </StackPanel>
+                <!-- Temp. Score-->
+                <StackPanel Margin="163,0,147,200">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="Temp. Score" VerticalAlignment="Top" Height="38" Width="50" RenderTransformOrigin="-3.931,-2.696" FontSize="14" TextAlignment="Center"/>
+                    <TextBox x:Name="StatsStrTemp" HorizontalAlignment="Left" Margin="0,4,0,0" TextWrapping="Wrap" Text="14" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" LostFocus="StatsTemp_LostFocus"/>
+                    <TextBox x:Name="StatsDexTemp" HorizontalAlignment="Left" Margin="0,8,0,0" TextWrapping="Wrap" Text="18" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" LostFocus="StatsTemp_LostFocus"/>
+                    <TextBox x:Name="StatsConTemp" HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="12" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" LostFocus="StatsTemp_LostFocus"/>
+                    <TextBox x:Name="StatsIntTemp" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" LostFocus="StatsTemp_LostFocus"/>
+                    <TextBox x:Name="StatsWisTemp" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" LostFocus="StatsTemp_LostFocus"/>
+                    <TextBox x:Name="StatsChaTemp" HorizontalAlignment="Left" Margin="0,14,0,0" TextWrapping="Wrap" Text="11" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" LostFocus="StatsTemp_LostFocus"/>
+                </StackPanel>
+                <!--Temp. Mod-->
+                <StackPanel Margin="219,0,97,186">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="Temp. Mod" VerticalAlignment="Top" Height="38" Width="40" RenderTransformOrigin="-3.931,-2.696" FontSize="14" TextAlignment="Center"/>
+                    <TextBlock x:Name="TempModStr" HorizontalAlignment="Left" Margin="0,11,0,0" TextWrapping="Wrap" Text="+2" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="TempModDex" HorizontalAlignment="Left" Margin="0,24,0,0" TextWrapping="Wrap" Text="+4" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="TempModCon" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="+1" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="TempModInt" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="+3" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="TempModWis" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="+2" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                    <TextBlock x:Name="TempModCha" HorizontalAlignment="Left" Margin="0,25,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="40" TextAlignment="Center"/>
+                </StackPanel>
+                <!-- Max HP-->
+                <StackPanel Margin="281,9,24,447">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="MAX HP" VerticalAlignment="Top"  RenderTransformOrigin="-3.931,-2.696" FontSize="14"/>
+                    <TextBlock x:Name="StatsMaxHp" HorizontalAlignment="Left" Margin="0,13,0,0" TextWrapping="Wrap" Text="67" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"/>
+                </StackPanel>
+                <!-- HP -->
+                <StackPanel Margin="281,88,24,456">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="HP" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"/>
+                    <TextBox x:Name="StatsCurrentHp" HorizontalAlignment="Left" Margin="0,13,0,0" TextWrapping="Wrap" Text="56" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"/>
+                </StackPanel>
+                <!-- Initiative-->
+                <StackPanel Margin="281,171,0,384">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="Initiative" VerticalAlignment="Top" FontSize="19" RenderTransformOrigin="-0.971,0.869"/>
+                    <TextBlock x:Name="StatsInitiative" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="+4" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"/>
+                </StackPanel>
+                <!-- B.A.B.-->
+                <StackPanel Margin="281,247,0,293">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="B.A.B." VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"/>
+                    <TextBlock x:Name="StatsBaseAttackBonus" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="+6" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869" Width="70"/>
+                </StackPanel>
+                <!-- Armor Class-->
+                <StackPanel Margin="0,341,2,222">
+                    <TextBlock HorizontalAlignment="Left" Margin="12,0,0,0" TextWrapping="Wrap" Text="Armor Class" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="20"/>
+                    <TextBlock x:Name="StatsACDisplay" HorizontalAlignment="Left" Margin="12,5,0,0" TextWrapping="Wrap" Text="18 (13 Flat Footed, 15 Touch)" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="18"/>
+                </StackPanel>
+                <!-- Saves-->
+                <TextBlock HorizontalAlignment="Left" Margin="12,410,0,0" TextWrapping="Wrap" Text="Saves" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="20"/>
+                <!-- Fort-->
+                <StackPanel Orientation="Horizontal" Margin="0,439,236,155">
+                    <TextBlock HorizontalAlignment="Left" Margin="12,0,0,0" TextWrapping="Wrap" Text="Fort" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="17"/>
+                    <TextBlock x:Name="StatsFortitudeTotal" HorizontalAlignment="Left" Margin="27,0,0,0" TextWrapping="Wrap" Text="+4" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="17" Width="65"/>
+                </StackPanel>
+                <!-- Ref-->
+                <StackPanel Orientation="Horizontal" Margin="0,465,210,155">
+                    <TextBlock HorizontalAlignment="Left" Margin="12,5,0,0" TextWrapping="Wrap" Text="Ref" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="17"/>
+                    <TextBlock x:Name="StatsReflexTotal" HorizontalAlignment="Left" Margin="34,5,0,0" TextWrapping="Wrap" Text="+8" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="17" Width="66"/>
+
+                </StackPanel>
+                <!-- Will -->
+                <StackPanel Orientation="Horizontal" Margin="0,501,212,94">
+                    <TextBlock HorizontalAlignment="Left" Margin="12,0,0,0" TextWrapping="Wrap" Text="Will" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="17"/>
+                    <TextBlock x:Name="StatsWillpowerTotal" HorizontalAlignment="Left" Margin="29,0,0,0" TextWrapping="Wrap" Text="+3" VerticalAlignment="Top" RenderTransformOrigin="-3.931,-2.696" FontSize="17"/>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+        <Button x:Name="btnInfoEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top" Click="btnInfoEdit_Click" Width="66"/>
+    </Grid>
+</Page>

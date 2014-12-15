@@ -1,0 +1,108 @@
+﻿<Page
+    x:Class="pathfinderCharacterSheet.infoDisplay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:pathfinderCharacterSheet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="appBarAboutBtn" Label="About" Click="appBarAboutBtn_Click"/>
+                <AppBarButton x:Name="appBarInfoBtn" Label="Character Information" Click="appBarInfoBtn_Click"/>
+                <AppBarButton x:Name="appBarStatsBtn" Label="Character Stats" Click="appBarStatsBtn_Click"/>
+            </CommandBar.SecondaryCommands>
+            
+
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,107,0.333">
+            <TextBlock x:Name="debug" Text="Character Info" Margin="0,-6.5,29.167,10
+                       " Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" FontSize="40"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <ScrollViewer HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto">
+            <Grid x:Name="ContentRoot" Margin="19,0,19,10" Grid.Row="1">
+                <!-- Name -->
+                <StackPanel Margin="0,0,173,489">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" FontSize="20"/>
+                    <TextBlock x:Name="BasicName" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Your Name Here" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Character Level -->
+                <StackPanel Margin="0,65,173,424">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Character Level:" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicClass" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Rogue 7" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Race -->
+                <StackPanel Margin="0,130,173,359">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Race:" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicRace" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Human" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Alignment-->
+                <StackPanel Margin="189,130,0,359">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Alignment:" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicAlignment" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Chaotic Good" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Age -->
+                <StackPanel Margin="0,195,173,294">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Age:" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicAge" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="31" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Gender -->
+                <StackPanel Margin="189,195,0,294">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Gender" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicGender" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Male" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Size -->
+                <StackPanel Margin="0,266,173,214">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Size" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicSize" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Medium" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Weight -->
+                <StackPanel Margin="189,266,0,223">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicWeight" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="185lbs" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Deity -->
+                <StackPanel Margin="0,333,173,156">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Deity" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicDeity" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="C'thulhu" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Hair -->
+                <StackPanel Margin="189,333,0,156">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Hair" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicHair" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Black" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Homeland -->
+                <StackPanel Margin="0,396,173,93">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Homeland" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicHomeland" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Ravenmoor" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+                <!-- Eyes -->
+                <StackPanel Margin="189,396,0,93">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Eyes" VerticalAlignment="Top" FontSize="20" Margin="0,0,0,0"/>
+                    <TextBlock x:Name="BasicEyes" HorizontalAlignment="Left" Margin="12,2,0,0" TextWrapping="Wrap" Text="Brown" VerticalAlignment="Top" FontSize="24"/>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>    
+        <Button x:Name="btnInfoEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top" Click="btnInfoEdit_Click" Width="66"/>
+    </Grid>
+</Page>

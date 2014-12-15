@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="pathfinderCharacterSheet.aboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:pathfinderCharacterSheet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="appBarAboutBtn" Label="About" Click="appBarAboutBtn_Click"/>
+                <AppBarButton x:Name="appBarInfoBtn" Label="Character Information" Click="appBarInfoBtn_Click"/>
+                <AppBarButton x:Name="appBarStatsBtn" Label="Character Stats" Click="appBarStatsBtn_Click"/>
+            </CommandBar.SecondaryCommands>
+
+
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="about page" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="App Built By:" VerticalAlignment="Top" FontSize="24"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,34,0,0" TextWrapping="Wrap" Text="Chad Maron" VerticalAlignment="Top" FontSize="48"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,92,0,0" TextWrapping="Wrap" Text="Drew Johnson" VerticalAlignment="Top" FontSize="48"/>
+            <Button x:Name="btnEmail" Content="E-Mail Us" HorizontalAlignment="Left" Margin="3,194,0,0" VerticalAlignment="Top" Width="358" Click="btnEmail_Click"/>
+
+        </Grid>
+    </Grid>
+</Page>

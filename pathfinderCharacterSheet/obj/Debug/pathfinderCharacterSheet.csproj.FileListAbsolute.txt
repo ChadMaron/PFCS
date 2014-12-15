@@ -1,0 +1,208 @@
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\App.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.xr.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.exe
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\resources.pri
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\AppxManifest.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.build.appxrecipe
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.exe
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\ProjectArchitectures.txt
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoEdit.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\aboutPage.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsEdit.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Apps\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.i.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.i.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.i.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.i.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.i.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.i.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xaml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xaml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xaml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xaml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xaml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xaml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.exe
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\App.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\aboutPage.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoDisplay.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoEdit.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsDisplay.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsEdit.xbf
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.xr.xml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.exe
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\resources.pri
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\AppxManifest.xml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.build.appxrecipe
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml.intermediate
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles.intermediate
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles.intermediate
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles.intermediate
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Drew\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\ProjectArchitectures.txt
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\App.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\aboutPage.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoDisplay.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoEdit.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsDisplay.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsEdit.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.xr.xml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.exe
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\resources.pri
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\AppxManifest.xml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.build.appxrecipe
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.i.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.i.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.i.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.i.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.i.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.i.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xaml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xaml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xaml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xaml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xaml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xaml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xbf
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.exe
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml.intermediate
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles.intermediate
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles.intermediate
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles.intermediate
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Chad Maron\Dropbox\Monday chad problem\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\ProjectArchitectures.txt
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\App.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\aboutPage.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\infoEdit.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\statsEdit.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.xr.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.exe
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\resources.pri
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\AppxManifest.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.build.appxrecipe
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.i.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xaml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\App.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\aboutPage.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\infoEdit.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsDisplay.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\statsEdit.xbf
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.exe
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pathfinderCharacterSheet.pdb
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\priconfig.xml.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\layout.resfiles.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\resources.resfiles.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\pri.resfiles.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Chad Maron\Documents\MADD\MAD9133 - Windows Phone Apps\Character Sheet Shizit\pathfinderCharacterSheet\pathfinderCharacterSheet\obj\Debug\ProjectArchitectures.txt
