@@ -1,0 +1,95 @@
+﻿<Page
+    x:Class="pathfinderCharacterSheet.BasicPage3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:pathfinderCharacterSheet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="668.5">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock x:Name="debug" Text="Gear" Margin="0,-6.5,29.167,10
+                       " Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" FontSize="40"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Left" Margin="238,10,0,0" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top" FontSize="36"/>
+            <StackPanel Margin="0,58,0,-3" Orientation="Horizontal">
+                <StackPanel Margin="0,0,39,-0.5" Width="222">
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,-0.5" Width="67">
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                    <TextBox/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Button x:Name="btnGearSave" Content="Save" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top" Click="btnInfoEdit_Click" Width="66"/>
+    </Grid>
+</Page>

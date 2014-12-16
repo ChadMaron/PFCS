@@ -88,6 +88,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="gearEdit.xaml.cs">
+      <DependentUpon>gearEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="gearDisplay.xaml.cs">
+      <DependentUpon>gearDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="weaponsDisplay.xaml.cs">
+      <DependentUpon>weaponsDisplay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Character.cs" />
     <Compile Include="infoDisplay.xaml.cs">
       <DependentUpon>infoDisplay.xaml</DependentUpon>
@@ -126,6 +135,18 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="aboutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="gearEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="gearDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="weaponsDisplay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
