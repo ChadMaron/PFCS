@@ -10,12 +10,12 @@
     <Page.BottomAppBar>
         <CommandBar>
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:ConnectionId='1' x:Name="appBarAboutBtn" Label="About"                             />
-                <AppBarButton x:ConnectionId='2' x:Name="appBarInfoBtn" Label="Character Information"                            />
-                <AppBarButton x:ConnectionId='3' x:Name="appBarStatsBtn" Label="Character Stats"                             />
+                <AppBarButton x:ConnectionId='1' x:Name="appBarAboutBtn" Label="About"                        />
+                <AppBarButton x:ConnectionId='2' x:Name="appBarInfoBtn" Label="Character Information"                         />
+                <AppBarButton x:ConnectionId='3' x:Name="appBarStatsBtn" Label="Character Stats"                         />
+                <AppBarButton x:ConnectionId='4' x:Name="appBarGearBtn" Label="Gear"                        />
+                <AppBarButton x:ConnectionId='5' x:Name="appBarWeaponsBtn" Label="Weapons"                        />
             </CommandBar.SecondaryCommands>
-
-
         </CommandBar>
     </Page.BottomAppBar>
     <Grid x:Name="LayoutRoot">
@@ -70,12 +70,12 @@
                 <!-- Temp. Score-->
                 <StackPanel Margin="163,0,147,200">
                     <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="Temp. Score" VerticalAlignment="Top" Height="38" Width="50" RenderTransformOrigin="-3.931,-2.696" FontSize="14" TextAlignment="Center"/>
-                    <TextBox x:ConnectionId='5' x:Name="StatsStrTemp" HorizontalAlignment="Left" Margin="0,4,0,0" TextWrapping="Wrap" Text="14" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
-                    <TextBox x:ConnectionId='6' x:Name="StatsDexTemp" HorizontalAlignment="Left" Margin="0,8,0,0" TextWrapping="Wrap" Text="18" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
-                    <TextBox x:ConnectionId='7' x:Name="StatsConTemp" HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="12" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
-                    <TextBox x:ConnectionId='8' x:Name="StatsIntTemp" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
-                    <TextBox x:ConnectionId='9' x:Name="StatsWisTemp" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
-                    <TextBox x:ConnectionId='10' x:Name="StatsChaTemp" HorizontalAlignment="Left" Margin="0,14,0,0" TextWrapping="Wrap" Text="11" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
+                    <TextBox x:ConnectionId='7' x:Name="StatsStrTemp" HorizontalAlignment="Left" Margin="0,4,0,0" TextWrapping="Wrap" Text="14" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
+                    <TextBox x:ConnectionId='8' x:Name="StatsDexTemp" HorizontalAlignment="Left" Margin="0,8,0,0" TextWrapping="Wrap" Text="18" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
+                    <TextBox x:ConnectionId='9' x:Name="StatsConTemp" HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="12" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
+                    <TextBox x:ConnectionId='10' x:Name="StatsIntTemp" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
+                    <TextBox x:ConnectionId='11' x:Name="StatsWisTemp" HorizontalAlignment="Left" Margin="0,12,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
+                    <TextBox x:ConnectionId='12' x:Name="StatsChaTemp" HorizontalAlignment="Left" Margin="0,14,0,0" TextWrapping="Wrap" Text="11" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.971,0.869"                                />
                 </StackPanel>
                 <!--Temp. Mod-->
                 <StackPanel Margin="219,0,97,186">
@@ -132,7 +132,7 @@
                 </StackPanel>
             </Grid>
         </ScrollViewer>
-        <Button x:ConnectionId='4' x:Name="btnInfoEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top"                           Width="66"/>
+        <Button x:ConnectionId='6' x:Name="btnInfoEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top"                           Width="66"/>
     </Grid>
 </Page>
 

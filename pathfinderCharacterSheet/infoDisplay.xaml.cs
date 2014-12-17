@@ -34,8 +34,6 @@ namespace pathfinderCharacterSheet
         private String fileName;
         private Boolean fileExists;
         
-
-
         public infoDisplay()
         {
             fileExists = false;
@@ -136,8 +134,6 @@ namespace pathfinderCharacterSheet
             this.navigationHelper.OnNavigatedTo(e);
         }
 
-        
-
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
             this.navigationHelper.OnNavigatedFrom(e);
@@ -145,24 +141,35 @@ namespace pathfinderCharacterSheet
 
         #endregion
 
+        public void appBarBtn_Click(object sender, RoutedEventArgs e) 
+        {
+            AppBarButton switcher = (AppBarButton)sender;
+            
+            switch(switcher.Name) {
+                case "appBarAboutBtn":
+                    Frame.Navigate(typeof(aboutPage));
+                    break;
+                case "appBarInfoBtn":
+                    Frame.Navigate(typeof(infoDisplay));
+                    break;
+                case "appBarStatsBtn":
+                    Frame.Navigate(typeof(statsDisplay));
+                    break;
+                case "appBarGearBtn":
+                    Frame.Navigate(typeof(gearDisplay));
+                    break;
+                case "appBarWeaponsBtn":
+                    Frame.Navigate(typeof(weaponsDisplay));
+                    break;
+                default:
+                    Frame.Navigate(typeof(aboutPage));
+                    break;
+            }
+        }
+
         private void btnInfoEdit_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(infoEdit), character[0]);
-        }
-
-        private void appBarAboutBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(aboutPage));
-        }
-
-        private void appBarInfoBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(infoDisplay));
-        }
-
-        private void appBarStatsBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(statsDisplay));
         }
 
         private void CreateData()

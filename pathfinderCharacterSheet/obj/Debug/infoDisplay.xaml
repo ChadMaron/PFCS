@@ -10,12 +10,12 @@
     <Page.BottomAppBar>
         <CommandBar>
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:ConnectionId='1' x:Name="appBarAboutBtn" Label="About"                             />
-                <AppBarButton x:ConnectionId='2' x:Name="appBarInfoBtn" Label="Character Information"                            />
-                <AppBarButton x:ConnectionId='3' x:Name="appBarStatsBtn" Label="Character Stats"                             />
+                <AppBarButton x:ConnectionId='1' x:Name="appBarAboutBtn" Label="About"                        />
+                <AppBarButton x:ConnectionId='2' x:Name="appBarInfoBtn" Label="Character Information"                        />
+                <AppBarButton x:ConnectionId='3' x:Name="appBarStatsBtn" Label="Character Stats"                        />
+                <AppBarButton x:ConnectionId='4' x:Name="appBarGearBtn" Label="Gear"                        />
+                <AppBarButton x:ConnectionId='5' x:Name="appBarWeaponsBtn" Label="Weapons"                        />
             </CommandBar.SecondaryCommands>
-            
-
         </CommandBar>
     </Page.BottomAppBar>
 
@@ -103,7 +103,7 @@
                 </StackPanel>
             </Grid>
         </ScrollViewer>    
-        <Button x:ConnectionId='4' x:Name="btnInfoEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top"                           Width="66"/>
+        <Button x:ConnectionId='6' x:Name="btnInfoEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top"                           Width="66"/>
     </Grid>
 </Page>
 

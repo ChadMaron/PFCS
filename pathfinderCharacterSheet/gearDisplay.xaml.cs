@@ -23,18 +23,45 @@ namespace pathfinderCharacterSheet
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class BasicPage2 : Page
+    public sealed partial class gearDisplay : Page
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
-        public BasicPage2()
+        public gearDisplay()
         {
             this.InitializeComponent();
 
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
             this.navigationHelper.SaveState += this.NavigationHelper_SaveState;
+        }
+
+        public void appBarBtn_Click(object sender, RoutedEventArgs e)
+        {
+            AppBarButton switcher = (AppBarButton)sender;
+
+            switch (switcher.Name)
+            {
+                case "appBarAboutBtn":
+                    Frame.Navigate(typeof(aboutPage));
+                    break;
+                case "appBarInfoBtn":
+                    Frame.Navigate(typeof(infoDisplay));
+                    break;
+                case "appBarStatsBtn":
+                    Frame.Navigate(typeof(statsDisplay));
+                    break;
+                case "appBarGearBtn":
+                    Frame.Navigate(typeof(gearDisplay));
+                    break;
+                case "appBarWeaponsBtn":
+                    Frame.Navigate(typeof(weaponsDisplay));
+                    break;
+                default:
+                    Frame.Navigate(typeof(aboutPage));
+                    break;
+            }
         }
 
         /// <summary>

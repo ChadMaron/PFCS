@@ -109,24 +109,31 @@ namespace pathfinderCharacterSheet
 
         #endregion
 
-        private void btnInfoEdit_Click(object sender, RoutedEventArgs e)
+        public void appBarBtn_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(infoEdit));
-        }
+            AppBarButton switcher = (AppBarButton)sender;
 
-        private void appBarAboutBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(aboutPage));
-        }
-
-        private void appBarInfoBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(infoDisplay));
-        }
-
-        private void appBarStatsBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(statsDisplay));
+            switch (switcher.Name)
+            {
+                case "appBarAboutBtn":
+                    Frame.Navigate(typeof(aboutPage));
+                    break;
+                case "appBarInfoBtn":
+                    Frame.Navigate(typeof(infoDisplay));
+                    break;
+                case "appBarStatsBtn":
+                    Frame.Navigate(typeof(statsDisplay));
+                    break;
+                case "appBarGearBtn":
+                    Frame.Navigate(typeof(gearDisplay));
+                    break;
+                case "appBarWeaponsBtn":
+                    Frame.Navigate(typeof(weaponsDisplay));
+                    break;
+                default:
+                    Frame.Navigate(typeof(aboutPage));
+                    break;
+            }
         }
 
         private async void btnEmail_Click(object sender, RoutedEventArgs e)

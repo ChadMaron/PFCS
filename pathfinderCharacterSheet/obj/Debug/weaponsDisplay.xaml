@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="pathfinderCharacterSheet.aboutPage"
+    x:Class="pathfinderCharacterSheet.weaponsDisplay"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:pathfinderCharacterSheet"
@@ -16,8 +16,6 @@
                 <AppBarButton x:ConnectionId='4' x:Name="appBarGearBtn" Label="Gear"                        />
                 <AppBarButton x:ConnectionId='5' x:Name="appBarWeaponsBtn" Label="Weapons"                        />
             </CommandBar.SecondaryCommands>
-
-
         </CommandBar>
     </Page.BottomAppBar>
     <Grid x:Name="LayoutRoot">
@@ -35,15 +33,11 @@
 
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
-            <TextBlock Text="about page" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+            <TextBlock Text="Weapons" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
 
         <!--TODO: Content should be placed within the following grid-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
-            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="App Built By:" VerticalAlignment="Top" FontSize="24"/>
-            <TextBlock HorizontalAlignment="Left" Margin="10,34,0,0" TextWrapping="Wrap" Text="Chad Maron" VerticalAlignment="Top" FontSize="48"/>
-            <TextBlock HorizontalAlignment="Left" Margin="10,92,0,0" TextWrapping="Wrap" Text="Drew Johnson" VerticalAlignment="Top" FontSize="48"/>
-            <Button x:ConnectionId='6' x:Name="btnEmail" Content="E-Mail Us" HorizontalAlignment="Left" Margin="3,194,0,0" VerticalAlignment="Top" Width="358"                       />
 
         </Grid>
     </Grid>

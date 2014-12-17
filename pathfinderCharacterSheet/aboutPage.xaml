@@ -10,9 +10,11 @@
     <Page.BottomAppBar>
         <CommandBar>
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:Name="appBarAboutBtn" Label="About" Click="appBarAboutBtn_Click"/>
-                <AppBarButton x:Name="appBarInfoBtn" Label="Character Information" Click="appBarInfoBtn_Click"/>
-                <AppBarButton x:Name="appBarStatsBtn" Label="Character Stats" Click="appBarStatsBtn_Click"/>
+                <AppBarButton x:Name="appBarAboutBtn" Label="About" Click="appBarBtn_Click"/>
+                <AppBarButton x:Name="appBarInfoBtn" Label="Character Information" Click="appBarBtn_Click"/>
+                <AppBarButton x:Name="appBarStatsBtn" Label="Character Stats" Click="appBarBtn_Click"/>
+                <AppBarButton x:Name="appBarGearBtn" Label="Gear" Click="appBarBtn_Click"/>
+                <AppBarButton x:Name="appBarWeaponsBtn" Label="Weapons" Click="appBarBtn_Click"/>
             </CommandBar.SecondaryCommands>
 
 
