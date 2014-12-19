@@ -115,6 +115,9 @@
     <Compile Include="weaponsDisplay.xaml.cs">
       <DependentUpon>weaponsDisplay.xaml</DependentUpon>
     </Compile>
+    <Compile Include="weaponsEdit.xaml.cs">
+      <DependentUpon>weaponsEdit.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -163,6 +166,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="weaponsDisplay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="weaponsEdit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
