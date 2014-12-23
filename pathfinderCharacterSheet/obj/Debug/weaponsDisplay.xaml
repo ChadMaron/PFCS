@@ -38,84 +38,127 @@
 
         <!--TODO: Content should be placed within the following grid-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
-            <StackPanel Margin="0,0,0,275">
-                <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" Margin="0,0,-0.333,20" TextWrapping="Wrap" Text="Heart Seeking Flame Dagger" VerticalAlignment="Top"                                               FontSize="26" Width="362" TextAlignment="Center"/>
-                <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center" FontSize="20">19 - 20</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="20">x2</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Critical</TextBlock>
-                    </StackPanel>
-                    <StackPanel Width="121">
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <TextBlock FontSize="20">+14</TextBlock>
-                            <TextBlock FontSize="20">+14</TextBlock>
+            <StackPanel>
+                <StackPanel Margin="0,0,0,30">
+                    <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Margin="0,0,-0.333,20" TextWrapping="Wrap" Text="Heart Seeking Flame Dagger" VerticalAlignment="Top"                                               FontSize="26" Width="362" TextAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">19 - 20</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="20">x2</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Critical</TextBlock>
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <TextBlock FontSize="20">+9</TextBlock>
-                            <TextBlock FontSize="20">+9</TextBlock>
+                        <StackPanel Width="121">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock FontSize="20">+14</TextBlock>
+                                <TextBlock FontSize="20">+14</TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock FontSize="20">+9</TextBlock>
+                                <TextBlock FontSize="20">+9</TextBlock>
+                            </StackPanel>
+                            <TextBlock TextAlignment="Center" FontSize="16">Attack Bonus</TextBlock>
                         </StackPanel>
-                        <TextBlock TextAlignment="Center" FontSize="16">Attack Bonus</TextBlock>
+                        <StackPanel Width="121" >
+                            <TextBlock TextAlignment="Center" FontSize="20">Dagger</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16" Margin="0,23.5,0,0">Type</TextBlock>
+                        </StackPanel>
                     </StackPanel>
-                    <StackPanel Width="121" >
-                        <TextBlock TextAlignment="Center" FontSize="20">Dagger</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16" Margin="0,23.5,0,0">Type</TextBlock>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">Close</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Range</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">None</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Ammunition</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center"  FontSize="20">1(d4) + 1 + 1(d6)</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Damage</TextBlock>
+                        </StackPanel>
                     </StackPanel>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center" FontSize="20">Close</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Range</TextBlock>
-                    </StackPanel>
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center" FontSize="20">None</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Ammunition</TextBlock>
-                    </StackPanel>
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center"  FontSize="20">1(d4) + 1 + 1(d6)</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Damage</TextBlock>
-                    </StackPanel>
-                </StackPanel>
-            </StackPanel>
-            
-            <StackPanel Margin="0,260,0,9">
-                <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Margin="0,0,-0.333,20" TextWrapping="Wrap" Text="Heart Seeking Flame Dagger" VerticalAlignment="Top"                                               FontSize="26" Width="362" TextAlignment="Center"/>
-                <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center" FontSize="20">19 - 20</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="20">x2</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Critical</TextBlock>
-                    </StackPanel>
-                    <StackPanel Width="121">
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <TextBlock FontSize="20">+14</TextBlock>
-                            <TextBlock FontSize="20">+14</TextBlock>
+
+                <StackPanel Margin="0,0,0,9">
+                    <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" Margin="0,0,-0.333,20" TextWrapping="Wrap" Text="Heart Seeking Flame Dagger" VerticalAlignment="Top"                                               FontSize="26" Width="362" TextAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">19 - 20</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="20">x2</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Critical</TextBlock>
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <TextBlock FontSize="20">+9</TextBlock>
-                            <TextBlock FontSize="20">+9</TextBlock>
+                        <StackPanel Width="121">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock FontSize="20">+14</TextBlock>
+                                <TextBlock FontSize="20">+14</TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock FontSize="20">+9</TextBlock>
+                                <TextBlock FontSize="20">+9</TextBlock>
+                            </StackPanel>
+                            <TextBlock TextAlignment="Center" FontSize="16">Attack Bonus</TextBlock>
                         </StackPanel>
-                        <TextBlock TextAlignment="Center" FontSize="16">Attack Bonus</TextBlock>
+                        <StackPanel Width="121" >
+                            <TextBlock TextAlignment="Center" FontSize="20">Dagger</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16" Margin="0,23.5,0,0">Type</TextBlock>
+                        </StackPanel>
                     </StackPanel>
-                    <StackPanel Width="121" >
-                        <TextBlock TextAlignment="Center" FontSize="20">Dagger</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16" Margin="0,23.5,0,0">Type</TextBlock>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">Close</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Range</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">None</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Ammunition</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center"  FontSize="20">1(d4) + 1 + 1(d6)</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Damage</TextBlock>
+                        </StackPanel>
                     </StackPanel>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center" FontSize="20">Close</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Range</TextBlock>
-                    </StackPanel>
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center" FontSize="20">None</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Ammunition</TextBlock>
-                    </StackPanel>
-                    <StackPanel Width="121">
-                        <TextBlock TextAlignment="Center"  FontSize="20">1(d4) + 1 + 1(d6)</TextBlock>
-                        <TextBlock TextAlignment="Center" FontSize="16">Damage</TextBlock>
+                
+                <StackPanel Margin="0,0,0,9">
+                    <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Margin="0,0,-0.333,20" TextWrapping="Wrap" Text="Heart Seeking Flame Dagger" VerticalAlignment="Top"                                               FontSize="26" Width="362" TextAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">19 - 20</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="20">x2</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Critical</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock FontSize="20">+14</TextBlock>
+                                <TextBlock FontSize="20">+14</TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <TextBlock FontSize="20">+9</TextBlock>
+                                <TextBlock FontSize="20">+9</TextBlock>
+                            </StackPanel>
+                            <TextBlock TextAlignment="Center" FontSize="16">Attack Bonus</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121" >
+                            <TextBlock TextAlignment="Center" FontSize="20">Dagger</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16" Margin="0,23.5,0,0">Type</TextBlock>
+                        </StackPanel>
+                    </StackPanel>                     
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">Close</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Range</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center" FontSize="20">None</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Ammunition</TextBlock>
+                        </StackPanel>
+                        <StackPanel Width="121">
+                            <TextBlock TextAlignment="Center"  FontSize="20">1(d4) + 1 + 1(d6)</TextBlock>
+                            <TextBlock TextAlignment="Center" FontSize="16">Damage</TextBlock>
+                        </StackPanel>
                     </StackPanel>
                 </StackPanel>
+                    
             </StackPanel>
         </Grid>
         <Button x:Name="btnInfoEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top" Width="66"/>

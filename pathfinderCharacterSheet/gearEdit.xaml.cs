@@ -107,5 +107,18 @@ namespace pathfinderCharacterSheet
         }
 
         #endregion
+
+        private void TextBox_NumberChecker(object sender, RoutedEventArgs e)
+        {
+            TextBox numberBox = (TextBox)sender;
+            string numString = numberBox.Text.Trim();
+            double i;
+            bool result = double.TryParse(numString, out i);
+
+            if (result == false)
+            {
+                numberBox.Text = "";
+            }
+        }
     }
 }

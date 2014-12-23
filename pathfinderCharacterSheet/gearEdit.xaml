@@ -63,32 +63,32 @@
                         <TextBox/>
                     </StackPanel>
                     <StackPanel Margin="0,0,0,-0.5" Width="67">
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
-                        <TextBox/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
+                        <TextBox LostFocus="TextBox_NumberChecker"/>
                     </StackPanel>
                 </StackPanel>
             </ScrollViewer>
