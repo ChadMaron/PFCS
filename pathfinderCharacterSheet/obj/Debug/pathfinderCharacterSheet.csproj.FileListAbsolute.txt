@@ -273,3 +273,8 @@ C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\qualifiers.txt
 C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\qualifiers.txt.intermediate
 C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\ProjectArchitectures.txt
+C:\wamp\www\PFCS\pathfinderCharacterSheet\bin\Debug\weaponsEdit.xbf
+C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\weaponsEdit.g.i.cs
+C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\weaponsEdit.g.cs
+C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\weaponsEdit.xaml
+C:\wamp\www\PFCS\pathfinderCharacterSheet\obj\Debug\weaponsEdit.xbf

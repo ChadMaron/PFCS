@@ -70,6 +70,9 @@
     <AppxPackagedFile Include="C:\wamp\www\PFCS\pathfinderCharacterSheet\bin\Debug\weaponsDisplay.xbf">
       <PackagePath>weaponsDisplay.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\wamp\www\PFCS\pathfinderCharacterSheet\bin\Debug\weaponsEdit.xbf">
+      <PackagePath>weaponsEdit.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\wamp\www\PFCS\pathfinderCharacterSheet\bin\Debug\pathfinderCharacterSheet.xr.xml">
       <PackagePath>pathfinderCharacterSheet.xr.xml</PackagePath>
     </AppxPackagedFile>

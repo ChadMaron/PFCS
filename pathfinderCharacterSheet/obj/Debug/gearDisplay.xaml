@@ -42,32 +42,52 @@
             <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="36"/>
             <TextBlock HorizontalAlignment="Left" Margin="238,10,0,0" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top" FontSize="36"/>
 
-            <!--            <ScrollViewer HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto">-->
-            <StackPanel Orientation="Horizontal" Margin="0,55,0,64">
-                <ListView Width="233" Margin="0,0,0,0.167">
-                    <!-- Example Items For Styling Purposes-->
-                    <ListViewItem FontSize="30">Item 1</ListViewItem>
-                    <ListViewItem FontSize="30">Item 2</ListViewItem>
-                    <ListViewItem FontSize="30">Item 3</ListViewItem>
-                    <ListViewItem FontSize="30">Item 4</ListViewItem>
-                    <ListViewItem FontSize="30">Item 5</ListViewItem>
-                </ListView>
-                <ListView Width="100">
-                    <!-- Example Items For Styling Purposes-->
-                    <ListViewItem FontSize="30">1</ListViewItem>
-                    <ListViewItem FontSize="30">2</ListViewItem>
-                    <ListViewItem FontSize="30">3</ListViewItem>
-                    <ListViewItem FontSize="30">4</ListViewItem>
-                    <ListViewItem FontSize="30">5</ListViewItem>
-                </ListView>
-            </StackPanel>
-            <!--</ScrollViewer>-->
-            <StackPanel Orientation="Horizontal" Margin="0,489,0,10">
+            <ScrollViewer HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto" Margin="0,55,0,98" Width="362">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                    <ListView Width="233" Margin="0,0,0,0.167">
+                        <!-- Example Items For Styling Purposes-->
+                        <ListViewItem FontSize="30">Item 1</ListViewItem>
+                        <ListViewItem FontSize="30">Item 2</ListViewItem>
+                        <ListViewItem FontSize="30">Item 3</ListViewItem>
+                        <ListViewItem FontSize="30">Item 4</ListViewItem>
+                        <ListViewItem FontSize="30">Item 5</ListViewItem>
+                        <ListViewItem FontSize="30">Item 1</ListViewItem>
+                        <ListViewItem FontSize="30">Item 2</ListViewItem>
+                        <ListViewItem FontSize="30">Item 3</ListViewItem>
+                        <ListViewItem FontSize="30">Item 4</ListViewItem>
+                        <ListViewItem FontSize="30">Item 5</ListViewItem>
+                        <ListViewItem FontSize="30">Item 1</ListViewItem>
+                        <ListViewItem FontSize="30">Item 2</ListViewItem>
+                        <ListViewItem FontSize="30">Item 3</ListViewItem>
+                        <ListViewItem FontSize="30">Item 4</ListViewItem>
+                        <ListViewItem FontSize="30">Item 5</ListViewItem>
+                    </ListView>
+                    <ListView Width="100">
+                        <!-- Example Items For Styling Purposes-->
+                        <ListViewItem FontSize="30">1</ListViewItem>
+                        <ListViewItem FontSize="30">2</ListViewItem>
+                        <ListViewItem FontSize="30">3</ListViewItem>
+                        <ListViewItem FontSize="30">4</ListViewItem>
+                        <ListViewItem FontSize="30">5</ListViewItem>
+                        <ListViewItem FontSize="30">1</ListViewItem>
+                        <ListViewItem FontSize="30">2</ListViewItem>
+                        <ListViewItem FontSize="30">3</ListViewItem>
+                        <ListViewItem FontSize="30">4</ListViewItem>
+                        <ListViewItem FontSize="30">5</ListViewItem>
+                        <ListViewItem FontSize="30">1</ListViewItem>
+                        <ListViewItem FontSize="30">2</ListViewItem>
+                        <ListViewItem FontSize="30">3</ListViewItem>
+                        <ListViewItem FontSize="30">4</ListViewItem>
+                        <ListViewItem FontSize="30">5</ListViewItem>
+                    </ListView>
+                </StackPanel>
+            </ScrollViewer>
+            <StackPanel Orientation="Horizontal" Margin="0,464,0,0">
                 <TextBlock FontSize="36">Total Weight</TextBlock>
                 <TextBlock FontSize="36" Margin="70,0,0,-0.333">36</TextBlock>
             </StackPanel>
         </Grid>
-        <Button x:Name="btnGearEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button x:ConnectionId='6' x:Name="btnGearEdit" Content="Edit" HorizontalAlignment="Left" Margin="272,1,0,0" VerticalAlignment="Top" Width="66"                          />
     </Grid>
 </Page>
 

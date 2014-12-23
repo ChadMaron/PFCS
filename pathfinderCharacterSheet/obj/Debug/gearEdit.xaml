@@ -22,75 +22,77 @@
         </Grid.RowDefinitions>
 
         <!-- Title Panel -->
-        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+        <StackPanel Grid.Row="0" Margin="19,20,0,0" Orientation="Horizontal">
             <TextBlock x:Name="debug" Text="Gear" Margin="0,-6.5,29.167,10
                        " Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" FontSize="40"/>
+            <Button x:Name="btnGearSave" Content="Save" HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top" Width="66"/>
         </StackPanel>
 
         <!--TODO: Content should be placed within the following grid-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
             <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="36"/>
             <TextBlock HorizontalAlignment="Left" Margin="238,10,0,0" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top" FontSize="36"/>
-            <StackPanel Margin="0,58,0,-3" Orientation="Horizontal">
-                <StackPanel Margin="0,0,39,-0.5" Width="222">
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
+            <ScrollViewer HorizontalAlignment="Left" VerticalScrollBarVisibility="Auto" Margin="0,58,0,2">
+                <StackPanel Margin="0,0,0,-3" Orientation="Horizontal">
+                    <StackPanel Margin="0,0,39,-0.5" Width="222">
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                    </StackPanel>
+                    <StackPanel Margin="0,0,0,-0.5" Width="67">
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                        <TextBox/>
+                    </StackPanel>
                 </StackPanel>
-                <StackPanel Margin="0,0,0,-0.5" Width="67">
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                    <TextBox/>
-                </StackPanel>
-            </StackPanel>
+            </ScrollViewer>
         </Grid>
-        <Button x:Name="btnGearSave" Content="Save" HorizontalAlignment="Left" Margin="272,-5,0,0" VerticalAlignment="Top" Width="66"/>
     </Grid>
 </Page>
 

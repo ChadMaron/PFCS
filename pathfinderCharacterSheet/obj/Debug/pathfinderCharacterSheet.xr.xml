@@ -38,6 +38,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
@@ -53,6 +54,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="TextAlignment" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -63,6 +65,14 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="pathfinderCharacterSheet.aboutPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
@@ -86,13 +96,6 @@
       <RootEvent Name="LostFocus" />
     </RootType>
     <RootType FullName="pathfinderCharacterSheet.BasicPage3" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="VerticalScrollBarVisibility" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-    </RootType>
     <RootType FullName="pathfinderCharacterSheet.infoDisplay" />
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.FlyoutBase">
       <RootMethod Name="GetAttachedFlyout" />
@@ -103,5 +106,6 @@
     <RootType FullName="pathfinderCharacterSheet.statsDisplay" />
     <RootType FullName="pathfinderCharacterSheet.statsEdit" />
     <RootType FullName="pathfinderCharacterSheet.weaponsDisplay" />
+    <RootType FullName="pathfinderCharacterSheet.weaponsEdit" />
   </Roots.RootTypes>
 </Roots>

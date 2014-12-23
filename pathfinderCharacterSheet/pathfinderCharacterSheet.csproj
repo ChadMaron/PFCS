@@ -91,10 +91,10 @@
     <Compile Include="gearDisplay.xaml.cs">
       <DependentUpon>gearDisplay.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Character.cs" />
     <Compile Include="gearEdit.xaml.cs">
       <DependentUpon>gearEdit.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Character.cs" />
     <Compile Include="infoDisplay.xaml.cs">
       <DependentUpon>infoDisplay.xaml</DependentUpon>
     </Compile>

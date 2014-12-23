@@ -134,5 +134,10 @@ namespace pathfinderCharacterSheet
         }
 
         #endregion
+
+        private void btnGearEdit_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(gearEdit));
+        }
     }
 }
